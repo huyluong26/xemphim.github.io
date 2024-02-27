@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(68, 68, 68);
+    margin: 10px 15px 10px 15px;
+    text-align: center;
+    width: 98%;
+    border: 1px solid #e4d4d4;
+
+}
+.vung{
+    background-color:rgb(15, 13, 13) ;
+}
+
+
+.bang{
+    background-color: white;
+    border: dashed 2px white;
+}
+.name{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    width: 98%;
+}
+.h1{
+    color:rgb(186, 248, 243);
+    background-color: rgb(68, 68, 68);
+    border: dashed 1px rgb(68, 68, 68);
+    width: 100%; height: 15px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px 15px 20px 15px;
+    font-weight: bold;
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 5px;
+}
+.root li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+
+}
+.menu_web{
+    background-color: rgb(26, 22, 22);
+    width: 98%;
+    height: 50px;
+    display: block;
+    margin: 0px auto;
+
+}
+.root li a:hover{
+    background-color: black; color: rgb(42, 111, 214);
+    
+}
+.submenu{width: 200px;
+background-color:aquamarine;
+color: purple;
+min-height: 80px;
+display: none;
+position: absolute;
+z-index: 1;}
+.submenu li{list-style: none;}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: white;
+    display:block;
+    border: 0px #ccc solid;
+    line-height: 50px;
+    text-align: 15px;
+    z-index: 1;
+
+}
+.root li:hover .submenu{
+    display: block;
+    background-color: rgb(37, 32, 32);
+    color: white;
+    transition: ease-in-out 0.35s;
+    z-index: 1;
+}
+.submenu li a:hover{
+    background-color: rgb(37, 32, 32);
+    color: rgb(42, 111, 214);
+    transform: ease-in-out;
+    z-index: 1;
+}
+
+.submenu1{width: 200px;
+    background-color:rgb(37, 32, 32);
+    color: white;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+    z-index: 1;}
+    .submenu1 li{list-style: none;}
+    .submenu1 li a{
+        text-transform: none;
+        text-decoration: none;
+        color: white;
+        display:block;
+        border: 0px #ccc solid;
+        line-height: 50px;
+        text-align: 15px;
+        z-index: 1;
+    }
+    .root li:hover .submenu1{
+        display: block;
+        background-color: rgb(37, 32, 32);
+        color: white;
+        transition: ease-in-out 0.35s;
+        z-index: 1;
+    }
+    .submenu1 li a:hover{
+        background-color: rgb(37, 32, 32);
+        color: rgb(42, 111, 214);
+        transform: ease-in-out;
+        z-index: 1;
+    }
+    .menuphim{
+        display: flex;
+        text-decoration: none;
+        
+    }
+    ul li  {
+      margin-left: 10px;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+    ul li::marker {
+      content: "";
+    }
+    .nam{
+      text-align: center;
+      color :white ;
+      font-weight: bold;
+    }
+    .tenphim{
+        text-align: center;
+        color:white;
+        
+    }
+    .phim{
+      border: 1px solid #ccc;
+    }
+    .container {
+      width: 100%;
+      
+      margin: 0 auto;
+      text-decoration: none;
+    }
+    
+    .main-content {
+      float: left;
+      width: 80%;
+    }
+    nav {
+
+        float: left;
+  
+        width: 80%;
+        height: 100%;
+  
+        
+  
+        padding: 20px;
+  
+      }
+    article {
+
+        float: left;
+  
+        padding: 20px;
+  
+        width: 18%;
+  
+        
+        height: 100%;
+  
+        }
+    section:after {
+
+            content: "";
+      
+            display: table;
+      
+            clear: both;
+      
+          }
+    footer {
+
+            
+      
+            padding: 10px;
+      
+            text-align: center;
+      
+            color: white;
+      
+          }
+    .topphim{
+        color: white;
+        
+    }
+    .theloai{
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+    }
+    .bxh{
+        
+        display: flex;
+        text-decoration: none;
+        align-content: center;
+    }
+    
